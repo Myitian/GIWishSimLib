@@ -324,6 +324,14 @@
             平稳机制
             </summary>
         </member>
+        <member name="M:Myitian.GIWishSimLib.SmootherCalc.WeightLimiter(System.Int32[]@,System.Int32)">
+            <summary>
+            权重限制器
+            </summary>
+            <param name="input">输入 int[3]</param>
+            <param name="limit">限制</param>
+            <returns>int[3]，超出限制的被截断</returns>
+        </member>
         <member name="M:Myitian.GIWishSimLib.SmootherCalc.CharacterEventWishSmoothWeight(System.Int32,System.Int32,System.Byte)">
             <summary>
             角色活动祈愿平稳机制
@@ -629,6 +637,12 @@
         <member name="M:Myitian.GIWishSimLib.Wish.Update(Myitian.GIWishSimLib.WishItems)">
             <summary>
             更新祈愿物品
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.Wish.Update(Myitian.GIWishSimLib.Wish)">
+            <summary>
+            更新祈愿
             </summary>
             <returns></returns>
         </member>

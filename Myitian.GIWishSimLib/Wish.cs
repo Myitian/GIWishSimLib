@@ -181,5 +181,20 @@ namespace Myitian.GIWishSimLib
             Items = newItems;
             return true;
         }
+        /// <summary>
+        /// 更新祈愿
+        /// </summary>
+        /// <returns></returns>
+        public bool Update(Wish newWish)
+        {
+            if (ResetCounterWhenUpdated)
+            {
+                Counter.Reset();
+            }
+            WishID = newWish.WishID;
+            WishName = newWish.WishName;
+            Items = newWish.Items;
+            return true;
+        }
     }
 }

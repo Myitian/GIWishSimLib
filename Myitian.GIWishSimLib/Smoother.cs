@@ -6,6 +6,43 @@ namespace Myitian.GIWishSimLib
     public static class SmootherCalc
     {
         /// <summary>
+        /// 权重限制器
+        /// </summary>
+        /// <param name="input">输入 int[3]</param>
+        /// <param name="limit">限制</param>
+        /// <returns>int[3]，超出限制的被截断</returns>
+        public static int[] WeightLimiter(in int[] input, int limit = 10000)
+        {
+            int a = input[0];
+            int b = input[1];
+            if (a > b)
+            {
+                if (a > limit)
+                {
+                    return new int[] { limit, 0 };
+                }
+                int c = a + b;
+                if (c > limit)
+                {
+                    return new int[] { a, c - limit };
+                }
+            }
+            else
+            {
+                if (b > limit)
+                {
+                    return new int[] { 0, limit };
+                }
+                int c = a + b;
+                if (c > limit)
+                {
+                    return new int[] { c - limit, b };
+                }
+            }
+            return input;
+        }
+
+        /// <summary>
         /// 角色活动祈愿平稳机制
         /// </summary>
         /// <param name="characterCounter">角色计数器</param>
@@ -56,7 +93,7 @@ namespace Myitian.GIWishSimLib
                         r[1] += 300 * (weaponCounter - 147);
                     break;
             }
-            return r;
+            return WeightLimiter(r);
         }
         /// <summary>
         /// 武器活动祈愿平稳机制
@@ -74,7 +111,7 @@ namespace Myitian.GIWishSimLib
             r[1] = 300;
             if (weaponCounter >= 16)
                 r[1] += 3000 * (weaponCounter - 15);
-            return r;
+            return WeightLimiter(r);
         }
     }
 }
