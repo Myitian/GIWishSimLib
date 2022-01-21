@@ -1,0 +1,695 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Myitian.GIWishSimLib</name>
+    </assembly>
+    <members>
+        <member name="T:Myitian.GIWishSimLib.CharacterEventWish">
+            <summary>
+            角色活动祈愿
+            </summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish.#ctor">
+            <summary>角色活动祈愿</summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish.#ctor(System.String)">
+            <summary>角色活动祈愿</summary>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish.#ctor(System.String,System.String)">
+            <summary>角色活动祈愿</summary>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish.#ctor(Myitian.GIWishSimLib.WishItems)">
+            <summary>角色活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish.#ctor(Myitian.GIWishSimLib.WishItems,System.String)">
+            <summary>角色活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish.#ctor(Myitian.GIWishSimLib.WishItems,System.String,System.String)">
+            <summary>角色活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter)">
+            <summary>角色活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String)">
+            <summary>角色活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String,System.String)">
+            <summary>角色活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish.GetItem(System.Byte)">
+            <summary>
+            获取指定星级的物品
+            </summary>
+            <param name="starlevel">星级</param>
+            <returns>一个 WishItemInfo ，包含了物品信息</returns>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.CharacterEventWish2">
+            <summary>
+            角色活动祈愿2
+            </summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish2.#ctor">
+            <summary>角色活动祈愿2</summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish2.#ctor(System.String)">
+            <summary>角色活动祈愿2</summary>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish2.#ctor(System.String,System.String)">
+            <summary>角色活动祈愿2</summary>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish2.#ctor(Myitian.GIWishSimLib.WishItems)">
+            <summary>角色活动祈愿2</summary>
+            <param name="items">祈愿物品组</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish2.#ctor(Myitian.GIWishSimLib.WishItems,System.String)">
+            <summary>角色活动祈愿2</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish2.#ctor(Myitian.GIWishSimLib.WishItems,System.String,System.String)">
+            <summary>角色活动祈愿2</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish2.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter)">
+            <summary>角色活动祈愿2</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish2.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String)">
+            <summary>角色活动祈愿2</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish2.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String,System.String)">
+            <summary>角色活动祈愿2</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.CharacterEventWish2.GetItem(System.Byte)">
+            <summary>
+            获取指定星级的物品
+            </summary>
+            <param name="starlevel">星级</param>
+            <returns>一个 WishItemInfo ，包含了物品信息</returns>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.WishCounter">
+            <summary>
+            祈愿计数器
+            </summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishCounter.Counter">
+            <summary>计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishCounter.C5Star">
+            <summary>5星计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishCounter.C5StarCharacter">
+            <summary>5星角色计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishCounter.C5StarWeapon">
+            <summary>5星武器计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishCounter.C4Star">
+            <summary>4星计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishCounter.C4StarCharacter">
+            <summary>4星角色计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishCounter.C4StarWeapon">
+            <summary>4星武器计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishCounter.FatePoint">
+            <summary>命定值</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishCounter.UP5Star">
+            <summary>是否为5星UP</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishCounter.UP4Star">
+            <summary>是否为4星UP</summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WishCounter.#ctor">
+            <summary>祈愿计数器</summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WishCounter.#ctor(Myitian.GIWishSimLib.WishCounter)">
+            <summary>祈愿计数器</summary>
+            <param name="wishCounter">源祈愿计数器</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WishCounter.Reset">
+            <summary>重置计数器</summary>
+            <returns></returns>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.NoviceWish">
+            <summary>
+            新手祈愿
+            </summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.NoviceWish.IsFirst4Star">
+            <summary>是否为第一个四星</summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.#ctor">
+            <summary>新手祈愿</summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.#ctor(System.String)">
+            <summary>新手祈愿</summary>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.#ctor(System.String,System.String)">
+            <summary>新手祈愿</summary>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.#ctor(Myitian.GIWishSimLib.WishItems)">
+            <summary>新手祈愿</summary>
+            <param name="items">祈愿物品组</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.#ctor(Myitian.GIWishSimLib.WishItems,System.String)">
+            <summary>新手祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.#ctor(Myitian.GIWishSimLib.WishItems,System.String,System.String)">
+            <summary>新手祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter)">
+            <summary>新手祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String)">
+            <summary>新手祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String,System.String)">
+            <summary>新手祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.Reset">
+            <summary>
+            重置祈愿及其计数器
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.Update(Myitian.GIWishSimLib.WishItems)">
+            <summary>
+            更新祈愿物品
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.NoviceWish.GetItem(System.Byte)">
+            <summary>
+            获取指定星级的物品
+            </summary>
+            <param name="starlevel">星级</param>
+            <returns>一个 WishItemInfo ，包含了物品信息</returns>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.PityCalc">
+            <summary>
+            保底计算
+            </summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.PityCalc.WeightLimiter(System.Int32[]@,System.Int32)">
+            <summary>
+            权重限制器
+            </summary>
+            <param name="input">输入 int[3]</param>
+            <param name="limit">限制</param>
+            <returns>int[3]，超出限制的被截断</returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.PityCalc.CharacterEventWishPity(System.Int32,System.Int32)">
+            <summary>
+            角色活动祈愿保底计算
+            </summary>
+            <param name="counter_4star">4星计数器</param>
+            <param name="counter_5star">5星计数器</param>
+            <returns>int[3]，第一项为 5星概率*10000 ，第二项为 4星概率*10000 ，第三项为 3星概率*10000</returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.PityCalc.CharacterEventWish2Pity(System.Int32,System.Int32)">
+            <summary>
+            角色活动祈愿2保底计算
+            </summary>
+            <param name="counter_4star">4星计数器</param>
+            <param name="counter_5star">5星计数器</param>
+            <returns>int[3]，第一项为 5星概率*10000 ，第二项为 4星概率*10000 ，第三项为 3星概率*10000</returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.PityCalc.NoviceWishPity(System.Int32,System.Int32)">
+            <summary>
+            新手祈愿保底计算
+            </summary>
+            <param name="counter_4star">4星计数器</param>
+            <param name="counter_5star">5星计数器</param>
+            <returns>int[3]，第一项为 5星概率*10000 ，第二项为 4星概率*10000 ，第三项为 3星概率*10000</returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.PityCalc.StandardWishPity(System.Int32,System.Int32)">
+            <summary>
+            常驻祈愿保底计算
+            </summary>
+            <param name="counter_4star">4星计数器</param>
+            <param name="counter_5star">5星计数器</param>
+            <returns>int[3]，第一项为 5星概率*10000 ，第二项为 4星概率*10000 ，第三项为 3星概率*10000</returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.PityCalc.WeaponEventWishPity(System.Int32,System.Int32)">
+            <summary>
+            武器活动祈愿保底计算
+            </summary>
+            <param name="counter_4star">4星计数器</param>
+            <param name="counter_5star">5星计数器</param>
+            <returns>int[3]，第一项为 5星概率*10000 ，第二项为 4星概率*10000 ，第三项为 3星概率*10000</returns>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.Rng">
+            <summary>
+            随机数生成器
+            </summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.Rng.StarRNG(System.Int32,System.Object)">
+            <summary>
+            星级随机生成器
+            </summary>
+            <param name="max">最大指</param>
+            <param name="seed">种子</param>
+            <returns></returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.Rng.ItemRNG(System.Int32,System.Object)">
+            <summary>
+            物品索引随机生成器
+            </summary>
+            <param name="max"></param>
+            <param name="seed">种子</param>
+            <returns></returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.Rng.UPRNG(System.Double,System.Boolean@,System.Object)">
+            <summary>
+            UP随机生成器
+            </summary>
+            <param name="percentage">概率</param>
+            <param name="isUP">是否UP</param>
+            <param name="seed">种子</param>
+            <returns></returns>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.SmootherCalc">
+            <summary>
+            平稳机制
+            </summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.SmootherCalc.CharacterEventWishSmoothWeight(System.Int32,System.Int32,System.Byte)">
+            <summary>
+            角色活动祈愿平稳机制
+            </summary>
+            <param name="characterCounter">角色计数器</param>
+            <param name="weaponCounter">武器计数器</param>
+            <param name="star">物品星级</param>
+            <returns>int[2]，第一项为角色概率，第二项为武器概率</returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.SmootherCalc.CharacterEventWish2SmoothWeight(System.Int32,System.Int32,System.Byte)">
+            <summary>
+            角色活动祈愿2平稳机制
+            </summary>
+            <param name="characterCounter">角色计数器</param>
+            <param name="weaponCounter">武器计数器</param>
+            <param name="star">物品星级</param>
+            <returns>int[2]，第一项为角色概率，第二项为武器概率</returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.SmootherCalc.StandardWishSmoothWeight(System.Int32,System.Int32,System.Byte)">
+            <summary>
+            常驻祈愿平稳机制
+            </summary>
+            <param name="characterCounter">角色计数器</param>
+            <param name="weaponCounter">武器计数器</param>
+            <param name="star">物品星级</param>
+            <returns>int[2]，第一项为角色概率，第二项为武器概率</returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.SmootherCalc.WeaponEventWishSmoothWeight(System.Int32,System.Int32,System.Byte)">
+            <summary>
+            武器活动祈愿平稳机制
+            </summary>
+            <param name="characterCounter">角色计数器</param>
+            <param name="weaponCounter">武器计数器</param>
+            <param name="star">没有作用，仅为了匹配接口</param>
+            <returns>int[2]，第一项为角色概率，第二项为武器概率</returns>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.StandardWish">
+            <summary>
+            常驻祈愿
+            </summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.StandardWish.#ctor">
+            <summary>常驻祈愿</summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.StandardWish.#ctor(System.String)">
+            <summary>常驻祈愿</summary>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.StandardWish.#ctor(System.String,System.String)">
+            <summary>常驻祈愿</summary>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.StandardWish.#ctor(Myitian.GIWishSimLib.WishItems)">
+            <summary>常驻祈愿</summary>
+            <param name="items">祈愿物品组</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.StandardWish.#ctor(Myitian.GIWishSimLib.WishItems,System.String)">
+            <summary>常驻祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.StandardWish.#ctor(Myitian.GIWishSimLib.WishItems,System.String,System.String)">
+            <summary>常驻祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.StandardWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter)">
+            <summary>常驻祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.StandardWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String)">
+            <summary>常驻祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.StandardWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String,System.String)">
+            <summary>常驻祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.StandardWish.GetItem(System.Byte)">
+            <summary>
+            获取指定星级的物品
+            </summary>
+            <param name="starlevel">星级</param>
+            <returns>一个 WishItemInfo ，包含了物品信息</returns>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.WeaponEventWish">
+            <summary>
+            武器活动祈愿
+            </summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WeaponEventWish.#ctor">
+            <summary>武器活动祈愿</summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WeaponEventWish.#ctor(System.String)">
+            <summary>武器活动祈愿</summary>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WeaponEventWish.#ctor(System.String,System.String)">
+            <summary>武器活动祈愿</summary>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WeaponEventWish.#ctor(Myitian.GIWishSimLib.WishItems)">
+            <summary>武器活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WeaponEventWish.#ctor(Myitian.GIWishSimLib.WishItems,System.String)">
+            <summary>武器活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WeaponEventWish.#ctor(Myitian.GIWishSimLib.WishItems,System.String,System.String)">
+            <summary>武器活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WeaponEventWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter)">
+            <summary>武器活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WeaponEventWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String)">
+            <summary>武器活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WeaponEventWish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String,System.String)">
+            <summary>武器活动祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WeaponEventWish.GetItem(System.Byte)">
+            <summary>
+            获取指定星级的物品
+            </summary>
+            <param name="starlevel">星级</param>
+            <returns>一个 WishItemInfo ，包含了物品信息</returns>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.WishTypes">
+            <summary>
+            祈愿类型
+            </summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishTypes.CharacterEventWish">
+            <summary>角色活动祈愿</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishTypes.CharacterEventWish2">
+            <summary>角色活动祈愿2</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishTypes.WeaponEventWish">
+            <summary>武器活动祈愿</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishTypes.StandardWish">
+            <summary>常驻祈愿</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishTypes.NoviceWish">
+            <summary>新手祈愿</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishTypes.Unknown">
+            <summary>未知</summary>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.ItemTypes">
+            <summary>
+            物品类型
+            </summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.ItemTypes.Character">
+            <summary>角色</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.ItemTypes.Weapon">
+            <summary>武器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.ItemTypes.Unknown">
+            <summary>未知</summary>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.WishItems">
+            <summary>
+            祈愿物品组
+            </summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItems.Item_5Star_Character">
+            <summary>5星角色</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItems.Item_5Star_UP_Character">
+            <summary>5星UP角色</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItems.Item_4Star_Character">
+            <summary>4星角色</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItems.Item_4Star_UP_Character">
+            <summary>4星UP角色</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItems.Item_5Star_Weapon">
+            <summary>5星武器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItems.Item_5Star_UP_Weapon">
+            <summary>5星UP武器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItems.Item_4Star_Weapon">
+            <summary>4星武器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItems.Item_4Star_UP_Weapon">
+            <summary>4星UP武器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItems.Item_3Star">
+            <summary>3星</summary>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.WishItemInfo">
+            <summary>
+            祈愿物品信息
+            </summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItemInfo.Name">
+            <summary>名称名称</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItemInfo.ItemType">
+            <summary>物品类型</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItemInfo.IsUP">
+            <summary>是否为UP</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishItemInfo.IsEP">
+            <summary>是否为定轨</summary>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.Wish">
+            <summary>
+            祈愿基类
+            </summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.Wish.WishID">
+            <summary>祈愿ID，目前没有功能</summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.Wish.WishName">
+            <summary>祈愿名称</summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.Wish.WishType">
+            <summary>祈愿类型</summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.Wish.Pity">
+            <summary>祈愿保底机制</summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.Wish.Smoother">
+            <summary>“平稳”机制</summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.Wish.Limit">
+            <summary>抽取数量上限</summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.Wish.Items">
+            <summary>祈愿物品组</summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.Wish.Counter">
+            <summary>祈愿计数器</summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.Wish.EpitomizedPath">
+            <summary>定轨</summary>
+        </member>
+        <member name="P:Myitian.GIWishSimLib.Wish.ResetCounterWhenUpdated">
+            <summary>卡池更新是否重置计数器</summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.Wish.#ctor(System.String,System.String)">
+            <summary>祈愿</summary>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.Wish.#ctor(Myitian.GIWishSimLib.WishItems,System.String,System.String)">
+            <summary>祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.Wish.#ctor(Myitian.GIWishSimLib.WishItems,Myitian.GIWishSimLib.WishCounter,System.String,System.String)">
+            <summary>祈愿</summary>
+            <param name="items">祈愿物品组</param>
+            <param name="counter">祈愿计数器</param>
+            <param name="wishName">祈愿名称</param>
+            <param name="wishID">祈愿ID</param>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.Wish.GetItem(System.Byte)">
+            <summary>
+            获取指定星级的物品
+            </summary>
+            <param name="starlevel">星级</param>
+            <returns>一个 WishItemInfo ，包含了物品信息</returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.Wish.Reset">
+            <summary>
+            重置祈愿及其计数器
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.Wish.Update(Myitian.GIWishSimLib.WishItems)">
+            <summary>
+            更新祈愿物品
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.WishResult">
+            <summary>
+            祈愿结果
+            </summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.Counter">
+            <summary>计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.C5Star">
+            <summary>5星计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.C5StarCharacter">
+            <summary>5星角色计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.C5StarWeapon">
+            <summary>5星武器计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.C4Star">
+            <summary>4星计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.C4StarCharacter">
+            <summary>4星角色计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.C4StarWeapon">
+            <summary>4星武器计数器</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.FatePoint">
+            <summary>命定值</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.IsUP">
+            <summary>是否为UP</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.IsEpitomizedPath">
+            <summary>是否为定轨</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.Star">
+            <summary>星级</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.Name">
+            <summary>名称</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.ItemType">
+            <summary>物品类型</summary>
+        </member>
+        <member name="F:Myitian.GIWishSimLib.WishResult.WishType">
+            <summary>祈愿类型</summary>
+        </member>
+        <member name="T:Myitian.GIWishSimLib.WishSimulator">
+            <summary>
+            祈愿模拟器
+            </summary>
+        </member>
+        <member name="M:Myitian.GIWishSimLib.WishSimulator.GetWish(Myitian.GIWishSimLib.Wish@)">
+            <summary>
+            获取一次祈愿
+            </summary>
+            <param name="wish">要抽取的祈愿</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

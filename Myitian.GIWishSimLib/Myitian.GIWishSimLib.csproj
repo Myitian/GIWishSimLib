@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Myitian</Authors>
+    <Description>参考自 https://www.bilibili.com/read/cv10468091 - 一棵平衡树</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <DocumentationFile>E:\myt-d\repo\Myitian.GIWishSimLib\Myitian.GIWishSimLib\Myitian.GIWishSimLib.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
