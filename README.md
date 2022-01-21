@@ -1,6 +1,8 @@
 # GIWishSimLib
 原神祈愿模拟库
 
+[![NuGet version (MCStructureFileEditor)](https://img.shields.io/badge/nuget-GIWishSimLib-blue)](https://www.nuget.org/packages/GIWishSimLib)
+
 基于.NET Standard 1.0
 
 开源协议：MIT License
